@@ -9,17 +9,3 @@ class Human {
   return this.name;
   }
 }
-
-// class Person {
-
-// }
-
-
-module.exports = Human;
-
-// module.exports = {
-
-//   Human,
-//   Person
-
-// }

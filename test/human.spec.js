@@ -1,9 +1,5 @@
-var chai = require('chai'); //how we pull in a package
-
 var expect = chai.expect;
 var should = chai.should();
-
-var Human = require('../human.js');
 
 describe('Human Class', function (){
 

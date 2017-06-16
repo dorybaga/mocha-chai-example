@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name= "viewport" content="width=device-width"/>
+  <title></title>
+  <link rel="stylesheet" href="node_modules/mocha/mocha.css" type="text/css" media="all"/>
+</head>
+
+<body>
+  <div id="mocha"></div>
+
+  <script src="human.js" charset="utf-8"></script>
+
+  <script src="node_modules/mocha/mocha.js" charset="utf-8"></script>
+  <script src="node_modules/chai/chai.js" charset="utf-8"></script>
+
+  <script charset="utf-8">
+    mocha.setup('bdd');
+  </script>
+
+  <script src="test/human.spec.js" charset="utf-8"></script>
+
+  <script charset="utf-8">
+    mocha.run();
+  </script>
+
+
+</body>
+</html>
